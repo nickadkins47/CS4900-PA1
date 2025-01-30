@@ -5,3 +5,11 @@
 {"time":"2025-01-30T12:00:08.574059265-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"oemz4391"}
 {"time":"2025-01-30T12:00:08.57411298-05:00","level":"INFO","msg":"handler: started","stream_id":"oemz4391"}
 {"time":"2025-01-30T12:00:08.806682999-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-30T12:36:58.107860572-05:00","level":"INFO","msg":"stream: closing","id":"oemz4391"}
+{"time":"2025-01-30T12:36:58.10791611-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-30T12:36:58.109689551-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-30T12:36:58.518780038-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-30T12:36:58.833452008-05:00","level":"INFO","msg":"handler: closed","stream_id":"oemz4391"}
+{"time":"2025-01-30T12:36:58.833570437-05:00","level":"INFO","msg":"sender: closed","stream_id":"oemz4391"}
+{"time":"2025-01-30T12:36:58.833517112-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oemz4391"}
+{"time":"2025-01-30T12:36:58.833931761-05:00","level":"INFO","msg":"stream: closed","id":"oemz4391"}

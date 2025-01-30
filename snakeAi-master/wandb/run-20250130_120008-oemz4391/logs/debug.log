@@ -21,3 +21,4 @@ config: {'_wandb': {}}
 2025-01-30 12:00:08,867 INFO    MainThread:44556 [wandb_run.py:_redirect():2325] Redirects installed.
 2025-01-30 12:00:08,868 INFO    MainThread:44556 [wandb_init.py:init():1026] run started, returning control to user process
 2025-01-30 12:00:10,185 INFO    MainThread:44644 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-30 12:36:58,108 WARNING MsgRouterThr:44556 [router.py:message_loop():75] message_loop has been closed
