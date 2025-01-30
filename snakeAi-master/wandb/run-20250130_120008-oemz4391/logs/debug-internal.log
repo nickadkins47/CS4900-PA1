@@ -1,0 +1,7 @@
+{"time":"2025-01-30T12:00:08.346806587-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/home/nickadkins47/CS4900/CS4900-PA1/snakeAi-master/wandb/run-20250130_120008-oemz4391/logs/debug-core.log"}
+{"time":"2025-01-30T12:00:08.573932215-05:00","level":"INFO","msg":"created new stream","id":"oemz4391"}
+{"time":"2025-01-30T12:00:08.573995515-05:00","level":"INFO","msg":"stream: started","id":"oemz4391"}
+{"time":"2025-01-30T12:00:08.5740715-05:00","level":"INFO","msg":"sender: started","stream_id":"oemz4391"}
+{"time":"2025-01-30T12:00:08.574059265-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"oemz4391"}
+{"time":"2025-01-30T12:00:08.57411298-05:00","level":"INFO","msg":"handler: started","stream_id":"oemz4391"}
+{"time":"2025-01-30T12:00:08.806682999-05:00","level":"INFO","msg":"Starting system monitor"}

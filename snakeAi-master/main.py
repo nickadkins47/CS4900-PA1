@@ -8,6 +8,12 @@ import os
 import json
 import random
 
+### MY ADDITIONAL CODE - Nick ###
+
+import wandb
+
+###
+
 class Windows(Enum):
     """
     Windows enums
@@ -31,6 +37,11 @@ class Windows(Enum):
     # W13 = (20, 20, 3, 1)
     W14 = (20, 20, 1, 1)
 
+### MY ADDITIONAL CODE - Nick ###
+
+wandb.init(project="CS-4900-PA1")
+
+###
 
 class Game:
     """
@@ -181,6 +192,16 @@ class Game:
 
                 # appends game information to txt filen at specified path
                 self.save_to_file(f"graphs/{pars.get('graph', 'test')}.txt", agent.n_games, score, record)    
+
+                ### MY ADDITIONAL CODE - Nick ###
+
+                wandb.log({
+                    "Score": score,
+                    "Record": record
+                })
+
+                ###
+
     
 
 if __name__ == "__main__":
